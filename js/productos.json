@@ -1,0 +1,244 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Abrigo Invierno Clásico",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precioAnterior": 28000,
+        "precio": 24000
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Abrigo Largo Elegante",
+        "imagen": "./img/abrigos/02.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precioAnterior": 26000,
+        "precio": 22000
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Abrigo Acolchado Casual",
+        "imagen": "./img/abrigos/03.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precioAnterior": 25000,
+        "precio": 21000
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Abrigo Urbano Unisex",
+        "imagen": "./img/abrigos/04.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 20000
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Abrigo Estilo Parka",
+        "imagen": "./img/abrigos/05.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 19500
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Camiseta Básica Blanca",
+        "imagen": "./img/camisetas/01.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precioAnterior": 12000,
+        "precio": 9500
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Camiseta Estampada Urbana",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precioAnterior": 11500,
+        "precio": 9000
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Camiseta Oversize Negra",
+        "imagen": "./img/camisetas/03.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precioAnterior": 11000,
+        "precio": 8500
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Camiseta Cuello Redondo",
+        "imagen": "./img/camisetas/04.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Camiseta Manga Larga",
+        "imagen": "./img/camisetas/05.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 7800
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta Vintage Unisex",
+        "imagen": "./img/camisetas/06.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 7600
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Camiseta Deportiva DryFit",
+        "imagen": "./img/camisetas/07.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 7500
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Camiseta Casual de Algodón",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 7400
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Jeans Slim Azul",
+        "imagen": "./img/pantalones/01.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precioAnterior": 22000,
+        "precio": 18000
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Pantalón Jogger Gris",
+        "imagen": "./img/pantalones/02.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precioAnterior": 21000,
+        "precio": 17000
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Pantalón Cargo Verde",
+        "imagen": "./img/pantalones/03.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precioAnterior": 20000,
+        "precio": 16000
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Pantalón Chino Beige",
+        "imagen": "./img/pantalones/04.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 15500
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Pantalón Denim Oscuro",
+        "imagen": "./img/pantalones/05.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "zapatilla-01",
+        "titulo": "Zapatilla Running Pro",
+        "imagen": "./img/zapatillas/01.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precioAnterior": 34000,
+        "precio": 29000
+    },
+    {
+        "id": "zapatilla-02",
+        "titulo": "Zapatilla Urbana Street",
+        "imagen": "./img/zapatillas/02.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precioAnterior": 32000,
+        "precio": 27000
+    },
+    {
+        "id": "zapatilla-03",
+        "titulo": "Zapatilla Deportiva Flex",
+        "imagen": "./img/zapatillas/03.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precioAnterior": 30000,
+        "precio": 25000
+    },
+    {
+        "id": "zapatilla-04",
+        "titulo": "Zapatilla Skate Edition",
+        "imagen": "./img/zapatillas/04.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 24000
+    },
+    {
+        "id": "zapatilla-05",
+        "titulo": "Zapatilla Alta Confort",
+        "imagen": "./img/zapatillas/05.jpg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 23500
+    }
+]
