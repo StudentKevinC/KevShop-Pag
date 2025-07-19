@@ -606,3 +606,112 @@ main {
     transform: scale(1.2);
     background-color: var(--clr-gray);
 }
+
+/* Mejora estética del index */
+
+
+@keyframes fondoEspectacular {
+    0% { background-position: 0% 0%; }
+    25% { background-position: 100% 0%; }
+    50% { background-position: 100% 100%; }
+    75% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
+}
+
+/* Estructura centrada y legibilidad */
+.inicio-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 2rem;
+    color: white;
+}
+
+/* Tipografía ya definida con Rubik en el import de Google Fonts */
+
+/* Botón estilizado con sombra y gradiente */
+#comprar-btn {
+    background: linear-gradient(135deg, var(--clr-main), var(--clr-accent));
+    color: white;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3), 0 0 10px rgba(6,182,212,0.4);
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+#comprar-btn:hover {
+    transform: scale(1.08);
+    background: linear-gradient(135deg, var(--clr-accent), var(--clr-main));
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4), 0 0 20px rgba(6,182,212,0.5);
+}
+
+
+/* Fondo visual superpuesto para .fondo-index */
+.fondo-index::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    background: radial-gradient(circle at top left, rgba(255,255,255,0.15), transparent 60%),
+                radial-gradient(circle at bottom right, rgba(255,255,255,0.1), transparent 70%);
+}
+body:not(.fondo-index) .pantalla-inicio {
+  background: linear-gradient(135deg, var(--clr-main), var(--clr-accent));
+}
+/* Fondo azul degradado para cubrir toda la pantalla en .fondo-index */
+.fondo-index {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-45deg, #0ea5e9, #06b6d4, #2563eb, #1e3a8a);
+    background-size: 600% 600%;
+    animation: fondoAzulRapido 6s ease infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 1.5rem;
+    color: white;
+    animation: fadeIn 1s ease-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.fondo-index h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+    letter-spacing: 1.5px;
+    margin-bottom: 1rem;
+}
+
+.fondo-index p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+
+@keyframes fondoAzulRapido {
+    0% { background-position: 0% 50%; }
+    25% { background-position: 50% 50%; }
+    50% { background-position: 100% 50%; }
+    75% { background-position: 50% 50%; }
+    100% { background-position: 0% 50%; }
+}
